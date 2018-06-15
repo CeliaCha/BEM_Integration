@@ -10,7 +10,7 @@ var browserSync = require('browser-sync');
 gulp.task('sass', function () {
   gulp.src('./assets/scss/*.scss')
     .pipe(sass())
-    .pipe(cleanCss())
+    // .pipe(cleanCss())
     .pipe(gulp.dest('./dist/css/'))
 });
 

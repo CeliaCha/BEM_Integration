@@ -1,3 +1,26 @@
-body {
-	background-color: rgb(0, 119, 128);
+body * {
+	border: solid black 1px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.main {
+	display: grid;
+	width: 100%;
+
+	&__content {
+		width: 60%;
+
+		&__section {
+			
+
+		}
+		
+	}
+
+	&__aside {
+		width: 20%;
+			
+
+	}
 }
